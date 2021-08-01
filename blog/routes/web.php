@@ -52,3 +52,10 @@ Route::get('/rightjoin', 'JoinController@RightJoinData');
 //insert
 
 Route::get('/insert', 'InsertController@InsertData');
+
+
+//delete
+
+Route::get('/delete', 'deleteController@deleteData');
+
+Route::get('/deleteall', 'deleteController@deleteDataAll');

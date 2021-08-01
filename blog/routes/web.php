@@ -59,3 +59,7 @@ Route::get('/insert', 'InsertController@InsertData');
 Route::get('/delete', 'deleteController@deleteData');
 
 Route::get('/deleteall', 'deleteController@deleteDataAll');
+
+
+//update
+Route::get('/update', 'UpdateController@UpdateData');

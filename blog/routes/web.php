@@ -40,3 +40,10 @@ Route::get('/single', 'SelectController@SingleColum');
 
 //multiple column
 Route::get('/multiple', 'SelectController@multipleColum');
+
+
+
+//join
+
+Route::get('/leftjoin', 'JoinController@LeftJoinData');
+Route::get('/rightjoin', 'JoinController@RightJoinData');

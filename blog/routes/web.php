@@ -47,3 +47,8 @@ Route::get('/multiple', 'SelectController@multipleColum');
 
 Route::get('/leftjoin', 'JoinController@LeftJoinData');
 Route::get('/rightjoin', 'JoinController@RightJoinData');
+
+
+//insert
+
+Route::get('/insert', 'InsertController@InsertData');
